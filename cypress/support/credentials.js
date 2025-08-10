@@ -1,0 +1,5 @@
+export const USERNAME = Cypress.env('username')
+export const PASSWORD = Cypress.env('password')
+export const INVALID_PASSWORD = Cypress.env('invalid_password')
+export const INVALID_USERNAME = Cypress.env('invalid_username')
+export const HOME_URL = Cypress.env('home_url')
