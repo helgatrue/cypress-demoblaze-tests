@@ -35,13 +35,13 @@ All page selectors are stored in `cypress/support/page/Selectors.js`. Tests impo
 * Tests focus on actions and validations, not on low-level selectors
 * Easier to expand test coverage without duplicating code
 
-#### Why these tests are essential?
+#### Why are these tests essential?
 * Login is the entry point for any authenticated actions.
 * The purchase flow represents the most critical revenue-generating process. * Verifying order details ensures data consistency and trust in the application.
 
 ## Test scenarios
 1. User can log in with valid credentials
-2. User cannot log in with wrong password
+2. User cannot log in with the wrong password
 3. User cannot log in with non-existing username and password
 4. Login form validation
 5. Session persists after page reload
@@ -51,15 +51,15 @@ All page selectors are stored in `cypress/support/page/Selectors.js`. Tests impo
 ## Installation
 1. Clone the repository:
 ```
-git clone https://github.com/<your-username>/<your-repo>.git
-cd <your-repo>
+git clone https://github.com/helgatrue/cypress-demoblaze-tests.git
+cd cypress-demoblaze-tests
 ```
 
 2. Install dependencies:
 ```
 npm install
 ```
-3. Install Cypress framework:
+3. Install the Cypress framework:
 ```
 npm install cypress --save-dev
 ```
@@ -75,11 +75,11 @@ or run them in console:
 npx cypress run
 ```
 
-On this screen click on E2E Testing. Chrome browser is used by default:
+On this screen, click on E2E Testing. Chrome browser is used by default:
 ![Image](docs/image2.png)
 
 On the following screen, you will see the test suites to run. You can select the one you want to try, and it will start its execution:
 ![Image](docs/image3.png)
 
-On the left you will see a list of test cases and the status of each one:
+On the left, you will see a list of test cases and the status of each one:
 ![Image](docs/image4.png)
